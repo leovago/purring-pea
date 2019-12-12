@@ -37,6 +37,7 @@ app.get("/developer", function (req, res) {
   });
 });
 
+// WhoAmI
 app.get("/api/whoami", function (req, res){
   res.json({
     "ipaddress":req.ip,
